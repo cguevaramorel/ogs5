@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="Base">
+        <in>DateTools.cpp</in>
+        <in>FileTools.cpp</in>
+        <in>MemWatch.cpp</in>
+        <in>StringTools.cpp</in>
+        <in>binarySearch.cpp</in>
+        <in>break.cpp</in>
+        <in>display.cpp</in>
+        <in>makros.cpp</in>
+        <in>memory.cpp</in>
+        <in>timer.cpp</in>
+      </df>
+      <df name="FEM">
+        <df name="Material">
+          <df name="Fluid">
+            <df name="GibbsFreeEnergy">
+              <in>DimensionLessGibbsFreeEnergyRegion1.cpp</in>
+            </df>
+            <df name="Viscosity">
+              <in>WaterViscosityIAPWS.cpp</in>
+            </df>
+          </df>
+          <df name="Solid">
+            <in>BGRaCreep.cpp</in>
+          </df>
+        </df>
+        <in>BoundaryCondition.cpp</in>
+        <in>CAP_IO.cpp</in>
+        <in>DUMUX.cpp</in>
+        <in>DistributionInfo.cpp</in>
+        <in>Eclipse.cpp</in>
+        <in>FEMCondition.cpp</in>
+        <in>FEMEnums.cpp</in>
+        <in>GeoInfo.cpp</in>
+        <in>InitialCondition.cpp</in>
+        <in>LinearFunctionData.cpp</in>
+        <in>Output.cpp</in>
+        <in>ProcessInfo.cpp</in>
+        <in>ShapeFunctionPool.cpp</in>
+        <in>SourceTerm.cpp</in>
+        <in>SparseMatrixDOK.cpp</in>
+        <in>Stiff_Bulirsch-Stoer.cpp</in>
+        <in>burgers.cpp</in>
+        <in>conversion_rate.cpp</in>
+        <in>eos.cpp</in>
+        <in>fem_ele.cpp</in>
+        <in>fem_ele_std.cpp</in>
+        <in>fem_ele_std1.cpp</in>
+        <in>fem_ele_std_tes.cpp</in>
+        <in>fem_ele_std_tneq.cpp</in>
+        <in>fem_ele_vec.cpp</in>
+        <in>femlib.cpp</in>
+        <in>files0.cpp</in>
+        <in>invariants.cpp</in>
+        <in>mathlib.cpp</in>
+        <in>matrix_class.cpp</in>
+        <in>matrix_routines.cpp</in>
+        <in>minkley.cpp</in>
+        <in>par_ddc.cpp</in>
+        <in>pcs_dm.cpp</in>
+        <in>problem.cpp</in>
+        <in>rf_bc_new.cpp</in>
+        <in>rf_fct.cpp</in>
+        <in>rf_fluid_momentum.cpp</in>
+        <in>rf_ic_new.cpp</in>
+        <in>rf_kinreact.cpp</in>
+        <in>rf_mfp_new.cpp</in>
+        <in>rf_mmp_new.cpp</in>
+        <in>rf_msp_new.cpp</in>
+        <in>rf_node.cpp</in>
+        <in>rf_num_new.cpp</in>
+        <in>rf_out_new.cpp</in>
+        <in>rf_pcs.cpp</in>
+        <in>rf_random_walk.cpp</in>
+        <in>rf_react.cpp</in>
+        <in>rf_react_cap.cpp</in>
+        <in>rf_react_int.cpp</in>
+        <in>rf_st_new.cpp</in>
+        <in>rf_tim_new.cpp</in>
+        <in>rfmat_cp.cpp</in>
+        <in>solver.cpp</in>
+        <in>tools.cpp</in>
+        <in>vtk.cpp</in>
+      </df>
+      <df name="FileIO">
+        <df name="FEMIO">
+          <in>BoundaryConditionIO.cpp</in>
+          <in>GeoIO.cpp</in>
+          <in>ProcessIO.cpp</in>
+        </df>
+        <df name="MeshIO">
+          <in>LegacyVtkInterface.cpp</in>
+          <in>OGSMeshIO.cpp</in>
+        </df>
+        <df name="XmlIO">
+          <in>RapidXMLInterface.cpp</in>
+        </df>
+        <in>OGSIOVer4.cpp</in>
+        <in>StationIO.cpp</in>
+        <in>Writer.cpp</in>
+        <in>readNonBlankLineFromInputStream.cpp</in>
+      </df>
+      <df name="GCC">
+        <in>Density.cpp</in>
+        <in>DiffOH.cpp</in>
+        <in>HKF.cpp</in>
+        <in>IAPWS-IF97.cpp</in>
+        <in>IO.cpp</in>
+        <in>NR.cpp</in>
+        <in>PITZdata.cpp</in>
+        <in>VLE.cpp</in>
+        <in>logk.cpp</in>
+      </df>
+      <df name="GEO">
+        <in>AxisAlignedBoundingBox.cpp</in>
+        <in>BruteForceClosestPair.cpp</in>
+        <in>Color.cpp</in>
+        <in>GEOObjects.cpp</in>
+        <in>GeoType.cpp</in>
+        <in>Point.cpp</in>
+        <in>PointVec.cpp</in>
+        <in>Polygon.cpp</in>
+        <in>Polyline.cpp</in>
+        <in>PolylineWithSegmentMarker.cpp</in>
+        <in>ProjectData.cpp</in>
+        <in>Raster.cpp</in>
+        <in>SensorData.cpp</in>
+        <in>SimplePolygonTree.cpp</in>
+        <in>Station.cpp</in>
+        <in>Surface.cpp</in>
+        <in>SurfaceGrid.cpp</in>
+        <in>Triangle.cpp</in>
+        <in>geo_dom.cpp</in>
+        <in>geo_lib.cpp</in>
+        <in>geo_lin.cpp</in>
+        <in>geo_mathlib.cpp</in>
+        <in>geo_ply.cpp</in>
+        <in>geo_pnt.cpp</in>
+        <in>geo_sfc.cpp</in>
+        <in>geo_vol.cpp</in>
+      </df>
+      <df name="MathLib">
+        <df name="InterpolationAlgorithms">
+          <in>CubicSpline.cpp</in>
+          <in>PiecewiseLinearInterpolation.cpp</in>
+        </df>
+        <in>AnalyticalGeometry.cpp</in>
+        <in>EarClippingTriangulation.cpp</in>
+        <in>LinkedTriangle.cpp</in>
+        <in>MathTools.cpp</in>
+      </df>
+      <df name="MSH">
+        <in>GridAdapter.cpp</in>
+        <in>MSHEnums.cpp</in>
+        <in>MeshNodesAlongPolyline.cpp</in>
+        <in>MshEditor.cpp</in>
+        <in>msh_core.cpp</in>
+        <in>msh_edge.cpp</in>
+        <in>msh_elem.cpp</in>
+        <in>msh_faces.cpp</in>
+        <in>msh_lib.cpp</in>
+        <in>msh_mesh.cpp</in>
+        <in>msh_node.cpp</in>
+      </df>
+      <df name="MSHGEOTOOLS">
+        <in>ExtractMeshNodes.cpp</in>
+      </df>
+      <df name="OGS">
+        <in>ogs_display.cpp</in>
+        <in>rf.cpp</in>
+      </df>
+      <df name="ThirdParty">
+        <df name="Brent">
+          <in>brent.cpp</in>
+        </df>
+      </df>
+      <df name="UTL">
+        <df name="mHM2OGS">
+          <in>mHMPreprocessor.cpp</in>
+          <in>main.cpp</in>
+        </df>
+        <df name="MSHGEOTOOLS">
+          <in>ModifyMeshProperties.cpp</in>
+          <in>filterMeshNodes.cpp</in>
+          <in>mainConvertGLIVerticalSurfaceToPolygon.cpp</in>
+          <in>mainExtractMeshNodeIDs.cpp</in>
+          <in>mainExtractMeshNodes.cpp</in>
+          <in>mainModifyMeshProperties.cpp</in>
+          <in>testMeshSearchAlgorithms.cpp</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>../debug/Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>../debug/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-march=native"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>../debug</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile -j 8</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>..\debug\bin\ogs</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>../debug</preBuildCommandWorkingDir>
+          <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..\source</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="Base/DateTools.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Base/FileTools.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Base/MemWatch.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Base/StringTools.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Base/binarySearch.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Base/break.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Base/display.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Base/makros.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Base/memory.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Base/timer.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/BoundaryCondition.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/CAP_IO.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/DUMUX.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/DistributionInfo.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/Eclipse.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/FEMCondition.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/FEMEnums.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/GeoInfo.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/InitialCondition.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/LinearFunctionData.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/Material/Fluid/GibbsFreeEnergy/DimensionLessGibbsFreeEnergyRegion1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/Material/Fluid/Viscosity/WaterViscosityIAPWS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/Material/Solid/BGRaCreep.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/Output.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/ProcessInfo.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/ShapeFunctionPool.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/SourceTerm.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/SparseMatrixDOK.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/Stiff_Bulirsch-Stoer.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/burgers.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/conversion_rate.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/eos.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/fem_ele.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/fem_ele_std.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/fem_ele_std1.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/fem_ele_std_tes.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/fem_ele_std_tneq.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/fem_ele_vec.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/femlib.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/files0.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/invariants.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/mathlib.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/matrix_class.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/matrix_routines.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/minkley.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/par_ddc.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/pcs_dm.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/problem.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_bc_new.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_fct.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_fluid_momentum.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_ic_new.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_kinreact.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_mfp_new.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_mmp_new.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_msp_new.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_node.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_num_new.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_out_new.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_pcs.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_random_walk.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_react.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_react_cap.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_react_int.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_st_new.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rf_tim_new.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/rfmat_cp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/solver.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/tools.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FEM/vtk.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/FEMIO/BoundaryConditionIO.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/FEMIO/GeoIO.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/FEMIO/ProcessIO.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/MeshIO/LegacyVtkInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/MeshIO/OGSMeshIO.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/OGSIOVer4.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/StationIO.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/Writer.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/XmlIO/RapidXMLInterface.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="FileIO/readNonBlankLineFromInputStream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GCC/Density.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GCC/DiffOH.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GCC/HKF.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GCC/IAPWS-IF97.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GCC/IO.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GCC/NR.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GCC/PITZdata.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GCC/VLE.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GCC/logk.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/AxisAlignedBoundingBox.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/BruteForceClosestPair.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/Color.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/GEOObjects.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/GeoType.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/Point.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/PointVec.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/Polygon.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/Polyline.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/PolylineWithSegmentMarker.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/ProjectData.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/Raster.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/SensorData.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/SimplePolygonTree.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/Station.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/Surface.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/SurfaceGrid.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/Triangle.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/geo_dom.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/geo_lib.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/geo_lin.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/geo_mathlib.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/geo_ply.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/geo_pnt.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/geo_sfc.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="GEO/geo_vol.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/GridAdapter.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/MSHEnums.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/MeshNodesAlongPolyline.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/MshEditor.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/msh_core.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/msh_edge.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/msh_elem.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/msh_faces.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/msh_lib.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/msh_mesh.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSH/msh_node.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MSHGEOTOOLS/ExtractMeshNodes.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MathLib/AnalyticalGeometry.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MathLib/EarClippingTriangulation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MathLib/InterpolationAlgorithms/CubicSpline.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MathLib/InterpolationAlgorithms/PiecewiseLinearInterpolation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MathLib/LinkedTriangle.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="MathLib/MathTools.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="OGS/ogs_display.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="OGS/rf.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="ThirdParty/Brent/brent.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="UTL/MSHGEOTOOLS/ModifyMeshProperties.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="UTL/MSHGEOTOOLS/filterMeshNodes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="UTL/MSHGEOTOOLS/mainConvertGLIVerticalSurfaceToPolygon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="UTL/MSHGEOTOOLS/mainExtractMeshNodeIDs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="UTL/MSHGEOTOOLS/mainExtractMeshNodes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="UTL/MSHGEOTOOLS/mainModifyMeshProperties.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="UTL/MSHGEOTOOLS/testMeshSearchAlgorithms.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="UTL/mHM2OGS/mHMPreprocessor.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="UTL/mHM2OGS/main.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="0/Base">
+        <ccTool>
+          <incDir>
+            <pElem>Base</pElem>
+            <pElem>ThirdParty</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/FEM">
+        <ccTool>
+          <incDir>
+            <pElem>Base</pElem>
+            <pElem>FEM</pElem>
+            <pElem>FileIO</pElem>
+            <pElem>FileIO/FEMIO</pElem>
+            <pElem>FileIO/MeshIO</pElem>
+            <pElem>GCC</pElem>
+            <pElem>GEM</pElem>
+            <pElem>GEO</pElem>
+            <pElem>MathLib</pElem>
+            <pElem>MSH</pElem>
+            <pElem>ThirdParty</pElem>
+            <pElem>../debug/FEM</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/FileIO">
+        <ccTool>
+          <incDir>
+            <pElem>Base</pElem>
+            <pElem>FEM</pElem>
+            <pElem>FileIO</pElem>
+            <pElem>FileIO/FEMIO</pElem>
+            <pElem>FileIO/GeoIO</pElem>
+            <pElem>FileIO/MathIO</pElem>
+            <pElem>FileIO/MeshIO</pElem>
+            <pElem>GEM</pElem>
+            <pElem>GEO</pElem>
+            <pElem>MathLib</pElem>
+            <pElem>MSH</pElem>
+            <pElem>ThirdParty</pElem>
+            <pElem>../debug/FileIO</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/GCC">
+        <ccTool>
+          <incDir>
+            <pElem>GCC</pElem>
+            <pElem>ThirdParty</pElem>
+            <pElem>../debug/GCC</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>IPMGEMPLUGIN</Elem>
+            <Elem>__unix</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/GEO">
+        <ccTool>
+          <incDir>
+            <pElem>Base</pElem>
+            <pElem>FEM</pElem>
+            <pElem>FileIO</pElem>
+            <pElem>GEO</pElem>
+            <pElem>MathLib</pElem>
+            <pElem>MathLib/LinAlg</pElem>
+            <pElem>MSH</pElem>
+            <pElem>ThirdParty</pElem>
+            <pElem>../debug/GEO</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/MSH">
+        <ccTool>
+          <incDir>
+            <pElem>Base</pElem>
+            <pElem>FEM</pElem>
+            <pElem>FileIO</pElem>
+            <pElem>GEO</pElem>
+            <pElem>LIB</pElem>
+            <pElem>MathLib</pElem>
+            <pElem>MSH</pElem>
+            <pElem>ThirdParty</pElem>
+            <pElem>../debug/MSH</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/MSHGEOTOOLS">
+        <ccTool>
+          <incDir>
+            <pElem>Base</pElem>
+            <pElem>FEM</pElem>
+            <pElem>FileIO</pElem>
+            <pElem>GEO</pElem>
+            <pElem>MathLib</pElem>
+            <pElem>MSH</pElem>
+            <pElem>MSHGEOTOOLS</pElem>
+            <pElem>ThirdParty</pElem>
+            <pElem>../debug/MSHGEOTOOLS</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/MathLib">
+        <ccTool>
+          <incDir>
+            <pElem>Base</pElem>
+            <pElem>GEO</pElem>
+            <pElem>MathLib</pElem>
+            <pElem>MathLib/LinAlg</pElem>
+            <pElem>MathLib/PETSC</pElem>
+            <pElem>ThirdParty</pElem>
+            <pElem>../debug/MathLib</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/OGS">
+        <ccTool>
+          <incDir>
+            <pElem>Base</pElem>
+            <pElem>FEM</pElem>
+            <pElem>FileIO</pElem>
+            <pElem>GEO</pElem>
+            <pElem>MathLib</pElem>
+            <pElem>MSH</pElem>
+            <pElem>ThirdParty</pElem>
+            <pElem>../debug/OGS</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/ThirdParty">
+        <ccTool>
+          <incDir>
+            <pElem>../debug/ThirdParty/Brent</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/UTL">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>Base</pElem>
+            <pElem>FEM</pElem>
+            <pElem>FileIO</pElem>
+            <pElem>FileIO/MeshIO</pElem>
+            <pElem>GEO</pElem>
+            <pElem>MathLib</pElem>
+            <pElem>MSH</pElem>
+            <pElem>MSHGEOTOOLS</pElem>
+            <pElem>UTL/MSHGEOTOOLS</pElem>
+            <pElem>ThirdParty</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/UTL/MSHGEOTOOLS">
+        <ccTool>
+          <incDir>
+            <pElem>../debug/UTL/MSHGEOTOOLS</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/UTL/mHM2OGS">
+        <ccTool>
+          <incDir>
+            <pElem>../debug/UTL/mHM2OGS</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>

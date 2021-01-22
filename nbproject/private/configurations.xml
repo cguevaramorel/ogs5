@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="Base">
+        <in>BuildInfo.h</in>
+        <in>CorrectScientificNotationMain.cpp</in>
+        <in>DateTools.cpp</in>
+        <in>DateTools.h</in>
+        <in>FileFinder.h</in>
+        <in>FileTools.cpp</in>
+        <in>FileTools.h</in>
+        <in>Histogram.h</in>
+        <in>MemWatch.cpp</in>
+        <in>MemWatch.h</in>
+        <in>StringTools.cpp</in>
+        <in>StringTools.h</in>
+        <in>TimeInterval.h</in>
+        <in>binarySearch.cpp</in>
+        <in>binarySearch.h</in>
+        <in>break.cpp</in>
+        <in>break.h</in>
+        <in>display.cpp</in>
+        <in>display.h</in>
+        <in>isnan.h</in>
+        <in>makros.cpp</in>
+        <in>makros.h</in>
+        <in>memory.cpp</in>
+        <in>memory.h</in>
+        <in>printList.h</in>
+        <in>quicksort.h</in>
+        <in>swap.h</in>
+        <in>timer.cpp</in>
+        <in>timer.h</in>
+        <in>uniqueListInsert.h</in>
+        <in>wait.h</in>
+      </df>
+      <df name="FEM">
+        <df name="Material">
+          <df name="Fluid">
+            <df name="Density">
+              <in>WaterDensityIAPWSIF97Region1.h</in>
+            </df>
+            <df name="GibbsFreeEnergy">
+              <in>DimensionLessGibbsFreeEnergyRegion1.cpp</in>
+              <in>DimensionLessGibbsFreeEnergyRegion1.h</in>
+            </df>
+            <df name="Viscosity">
+              <in>WaterViscosityIAPWS.cpp</in>
+              <in>WaterViscosityIAPWS.h</in>
+            </df>
+          </df>
+          <df name="Solid">
+            <in>BGRaCreep.cpp</in>
+            <in>BGRaCreep.h</in>
+          </df>
+        </df>
+        <in>BoundaryCondition.cpp</in>
+        <in>BoundaryCondition.h</in>
+        <in>CAP_IO.cpp</in>
+        <in>CAP_IO.h</in>
+        <in>Constrained.h</in>
+        <in>DUMUX.cpp</in>
+        <in>DUMUX.h</in>
+        <in>DistributionInfo.cpp</in>
+        <in>DistributionInfo.h</in>
+        <in>Eclipse.cpp</in>
+        <in>Eclipse.h</in>
+        <in>FEMCondition.cpp</in>
+        <in>FEMCondition.h</in>
+        <in>FEMEnums.cpp</in>
+        <in>FEMEnums.h</in>
+        <in>GeoInfo.cpp</in>
+        <in>GeoInfo.h</in>
+        <in>InitialCondition.cpp</in>
+        <in>InitialCondition.h</in>
+        <in>LinearFunctionData.cpp</in>
+        <in>LinearFunctionData.h</in>
+        <in>Output.cpp</in>
+        <in>Output.h</in>
+        <in>OutputTools.h</in>
+        <in>PhysicalConstant.h</in>
+        <in>ProcessInfo.cpp</in>
+        <in>ProcessInfo.h</in>
+        <in>ShapeFunctionPool.cpp</in>
+        <in>ShapeFunctionPool.h</in>
+        <in>SourceTerm.cpp</in>
+        <in>SourceTerm.h</in>
+        <in>SparseMatrixDOK.cpp</in>
+        <in>SparseMatrixDOK.h</in>
+        <in>SplitMPI_Communicator.cpp</in>
+        <in>SplitMPI_Communicator.h</in>
+        <in>Stiff_Bulirsch-Stoer.cpp</in>
+        <in>Stiff_Bulirsch-Stoer.h</in>
+        <in>SwitchBC.h</in>
+        <in>burgers.cpp</in>
+        <in>burgers.h</in>
+        <in>conversion_rate.cpp</in>
+        <in>conversion_rate.h</in>
+        <in>eos.cpp</in>
+        <in>eos.h</in>
+        <in>equation_class.cpp</in>
+        <in>equation_class.h</in>
+        <in>fct_mpi.cpp</in>
+        <in>fct_mpi.h</in>
+        <in>fem_ele.cpp</in>
+        <in>fem_ele.h</in>
+        <in>fem_ele_std.cpp</in>
+        <in>fem_ele_std.h</in>
+        <in>fem_ele_std1.cpp</in>
+        <in>fem_ele_std_tes.cpp</in>
+        <in>fem_ele_std_tneq.cpp</in>
+        <in>fem_ele_vec.cpp</in>
+        <in>fem_ele_vec.h</in>
+        <in>femlib.cpp</in>
+        <in>femlib.h</in>
+        <in>files0.cpp</in>
+        <in>files0.h</in>
+        <in>invariants.cpp</in>
+        <in>invariants.h</in>
+        <in>mathlib.cpp</in>
+        <in>mathlib.h</in>
+        <in>matrix_class.cpp</in>
+        <in>matrix_class.h</in>
+        <in>matrix_routines.cpp</in>
+        <in>matrix_routines.h</in>
+        <in>minkley.cpp</in>
+        <in>minkley.h</in>
+        <in>par_ddc.cpp</in>
+        <in>par_ddc.h</in>
+        <in>pcs_dm.cpp</in>
+        <in>pcs_dm.h</in>
+        <in>problem.cpp</in>
+        <in>problem.h</in>
+        <in>prototyp.h</in>
+        <in>rf_REACT_BRNS.cpp</in>
+        <in>rf_REACT_BRNS.h</in>
+        <in>rf_REACT_GEM.cpp</in>
+        <in>rf_REACT_GEM.h</in>
+        <in>rf_bc_new.cpp</in>
+        <in>rf_bc_new.h</in>
+        <in>rf_fct.cpp</in>
+        <in>rf_fct.h</in>
+        <in>rf_fluid_momentum.cpp</in>
+        <in>rf_fluid_momentum.h</in>
+        <in>rf_ic_new.cpp</in>
+        <in>rf_ic_new.h</in>
+        <in>rf_kinreact.cpp</in>
+        <in>rf_kinreact.h</in>
+        <in>rf_mfp_new.cpp</in>
+        <in>rf_mfp_new.h</in>
+        <in>rf_mmp_new.cpp</in>
+        <in>rf_mmp_new.h</in>
+        <in>rf_msp_new.cpp</in>
+        <in>rf_msp_new.h</in>
+        <in>rf_node.cpp</in>
+        <in>rf_node.h</in>
+        <in>rf_num_new.cpp</in>
+        <in>rf_num_new.h</in>
+        <in>rf_out_new.cpp</in>
+        <in>rf_out_new.h</in>
+        <in>rf_pcs.cpp</in>
+        <in>rf_pcs.h</in>
+        <in>rf_pcs1.cpp</in>
+        <in>rf_random_walk.cpp</in>
+        <in>rf_random_walk.h</in>
+        <in>rf_react.cpp</in>
+        <in>rf_react.h</in>
+        <in>rf_react_cap.cpp</in>
+        <in>rf_react_cap.h</in>
+        <in>rf_react_int.cpp</in>
+        <in>rf_react_int.h</in>
+        <in>rf_react_phrq.cpp</in>
+        <in>rf_react_phrq.h</in>
+        <in>rf_st_new.cpp</in>
+        <in>rf_st_new.h</in>
+        <in>rf_tim_new.cpp</in>
+        <in>rf_tim_new.h</in>
+        <in>rfmat_cp.cpp</in>
+        <in>rfmat_cp.h</in>
+        <in>solver.cpp</in>
+        <in>solver.h</in>
+        <in>tools.cpp</in>
+        <in>tools.h</in>
+        <in>vtk.cpp</in>
+        <in>vtk.h</in>
+      </df>
+      <df name="FileIO">
+        <df name="FEMIO">
+          <in>BoundaryConditionIO.cpp</in>
+          <in>BoundaryConditionIO.h</in>
+          <in>GeoIO.cpp</in>
+          <in>GeoIO.h</in>
+          <in>ProcessIO.cpp</in>
+          <in>ProcessIO.h</in>
+        </df>
+        <df name="MathIO">
+          <in>CRSIO.h</in>
+        </df>
+        <df name="MeshIO">
+          <in>LegacyVtkInterface.cpp</in>
+          <in>LegacyVtkInterface.h</in>
+          <in>OGSMeshIO.cpp</in>
+          <in>OGSMeshIO.h</in>
+        </df>
+        <df name="XmlIO">
+          <in>RapidXMLInterface.cpp</in>
+          <in>RapidXMLInterface.h</in>
+        </df>
+        <in>OGSIOVer4.cpp</in>
+        <in>OGSIOVer4.h</in>
+        <in>Reader.cpp</in>
+        <in>Reader.h</in>
+        <in>StationIO.cpp</in>
+        <in>StationIO.h</in>
+        <in>Writer.cpp</in>
+        <in>Writer.h</in>
+        <in>readNonBlankLineFromInputStream.cpp</in>
+        <in>readNonBlankLineFromInputStream.h</in>
+      </df>
+      <df name="GCC">
+        <in>Density.cpp</in>
+        <in>Density.h</in>
+        <in>DiffAL.h</in>
+        <in>DiffOH.cpp</in>
+        <in>DiffOH.h</in>
+        <in>HKF.cpp</in>
+        <in>HKF.h</in>
+        <in>IAPWS-IF97.cpp</in>
+        <in>IAPWS-IF97.h</in>
+        <in>IO.cpp</in>
+        <in>IO.h</in>
+        <in>NR.cpp</in>
+        <in>NR.h</in>
+        <in>PITZdata.cpp</in>
+        <in>PITZdata.h</in>
+        <in>VLE.cpp</in>
+        <in>VLE.h</in>
+        <in>WATEQdata.h</in>
+        <in>eqbrm.h</in>
+        <in>logk.cpp</in>
+        <in>logk.h</in>
+        <in>species.h</in>
+      </df>
+      <df name="GEO">
+        <in>AxisAlignedBoundingBox.cpp</in>
+        <in>AxisAlignedBoundingBox.h</in>
+        <in>BruteForceClosestPair.cpp</in>
+        <in>BruteForceClosestPair.h</in>
+        <in>ClosestPair.h</in>
+        <in>Color.cpp</in>
+        <in>Color.h</in>
+        <in>GEOObjects.cpp</in>
+        <in>GEOObjects.h</in>
+        <in>GeoObject.h</in>
+        <in>GeoType.cpp</in>
+        <in>GeoType.h</in>
+        <in>Grid.h</in>
+        <in>OctTree.h</in>
+        <in>Point.cpp</in>
+        <in>Point.h</in>
+        <in>PointVec.cpp</in>
+        <in>PointVec.h</in>
+        <in>PointWithID.h</in>
+        <in>Polygon.cpp</in>
+        <in>Polygon.h</in>
+        <in>Polyline.cpp</in>
+        <in>Polyline.h</in>
+        <in>PolylineVec.h</in>
+        <in>PolylineWithSegmentMarker.cpp</in>
+        <in>PolylineWithSegmentMarker.h</in>
+        <in>ProjectData.cpp</in>
+        <in>ProjectData.h</in>
+        <in>PropertyBounds.h</in>
+        <in>QuadTree.h</in>
+        <in>Raster.cpp</in>
+        <in>Raster.h</in>
+        <in>SensorData.cpp</in>
+        <in>SensorData.h</in>
+        <in>SimplePolygonTree.cpp</in>
+        <in>SimplePolygonTree.h</in>
+        <in>Station.cpp</in>
+        <in>Station.h</in>
+        <in>Surface.cpp</in>
+        <in>Surface.h</in>
+        <in>SurfaceGrid.cpp</in>
+        <in>SurfaceGrid.h</in>
+        <in>SurfaceVec.h</in>
+        <in>TemplatePoint.h</in>
+        <in>TemplateVec.h</in>
+        <in>Triangle.cpp</in>
+        <in>Triangle.h</in>
+        <in>geo_dom.cpp</in>
+        <in>geo_dom.h</in>
+        <in>geo_lib.cpp</in>
+        <in>geo_lib.h</in>
+        <in>geo_lin.cpp</in>
+        <in>geo_lin.h</in>
+        <in>geo_mathlib.cpp</in>
+        <in>geo_mathlib.h</in>
+        <in>geo_ply.cpp</in>
+        <in>geo_ply.h</in>
+        <in>geo_pnt.cpp</in>
+        <in>geo_pnt.h</in>
+        <in>geo_sfc.cpp</in>
+        <in>geo_sfc.h</in>
+        <in>geo_vol.cpp</in>
+        <in>geo_vol.h</in>
+      </df>
+      <df name="MathLib">
+        <df name="InterpolationAlgorithms">
+          <in>CubicSpline.cpp</in>
+          <in>CubicSpline.h</in>
+          <in>InverseDistanceInterpolation.h</in>
+          <in>LinearIntervalInterpolation.h</in>
+          <in>PiecewiseLinearInterpolation.cpp</in>
+          <in>PiecewiseLinearInterpolation.h</in>
+        </df>
+        <df name="LinAlg">
+          <in>GaussAlgorithm.h</in>
+          <in>TriangularSolve.h</in>
+        </df>
+        <df name="PETSC">
+          <in>PETScLinearSolver.cpp</in>
+          <in>PETScLinearSolver.h</in>
+        </df>
+        <in>AnalyticalGeometry.cpp</in>
+        <in>AnalyticalGeometry.h</in>
+        <in>EarClippingTriangulation.cpp</in>
+        <in>EarClippingTriangulation.h</in>
+        <in>LinkedTriangle.cpp</in>
+        <in>LinkedTriangle.h</in>
+        <in>MathTools.cpp</in>
+        <in>MathTools.h</in>
+        <in>Matrix.h</in>
+        <in>Vector3.h</in>
+        <in>max.h</in>
+      </df>
+      <df name="MSH">
+        <in>GridAdapter.cpp</in>
+        <in>GridAdapter.h</in>
+        <in>MSHEnums.cpp</in>
+        <in>MSHEnums.h</in>
+        <in>MeshNodesAlongPolyline.cpp</in>
+        <in>MeshNodesAlongPolyline.h</in>
+        <in>MshEditor.cpp</in>
+        <in>MshEditor.h</in>
+        <in>msh_core.cpp</in>
+        <in>msh_core.h</in>
+        <in>msh_edge.cpp</in>
+        <in>msh_edge.h</in>
+        <in>msh_elem.cpp</in>
+        <in>msh_elem.h</in>
+        <in>msh_faces.cpp</in>
+        <in>msh_faces.h</in>
+        <in>msh_lib.cpp</in>
+        <in>msh_lib.h</in>
+        <in>msh_lib_ext.cpp</in>
+        <in>msh_mesh.cpp</in>
+        <in>msh_mesh.h</in>
+        <in>msh_node.cpp</in>
+        <in>msh_node.h</in>
+      </df>
+      <df name="MSHGEOTOOLS">
+        <in>ExtractMeshNodes.cpp</in>
+        <in>ExtractMeshNodes.h</in>
+      </df>
+      <df name="OGS">
+        <in>ogs_display.cpp</in>
+        <in>ogs_display.h</in>
+        <in>rf.cpp</in>
+      </df>
+      <df name="scripts">
+        <df name="build">
+        </df>
+        <df name="ci">
+        </df>
+        <df name="clang-format">
+        </df>
+        <df name="cmake">
+          <df name="benchmarks">
+          </df>
+          <df name="cmake">
+            <df name="cmake-2.8.0-modules">
+              <df name="features">
+              </df>
+            </df>
+            <df name="cmake-2.8.1-modules">
+              <df name="patchctestbug10149">
+              </df>
+            </df>
+            <df name="cmake-2.8.3-modules">
+            </df>
+            <df name="cmake-2.8.4-modules">
+              <df name="boost">
+              </df>
+            </df>
+            <df name="cmake-2.9.0-modules">
+            </df>
+            <df name="findPETSC">
+            </df>
+            <df name="module-docs">
+            </df>
+            <df name="package-licensing">
+            </df>
+            <in>Findcppcheck.cpp</in>
+          </df>
+          <df name="packaging">
+          </df>
+          <df name="test">
+          </df>
+        </df>
+        <df name="doxygen">
+        </df>
+        <df name="env">
+          <df name="envinf1">
+          </df>
+        </df>
+        <df name="jenkins">
+        </df>
+        <df name="styleguide">
+        </df>
+      </df>
+      <df name="tests">
+        <df name="data">
+          <df name="bmskel">
+          </df>
+          <df name="GEO">
+          </df>
+        </df>
+        <df name="gdiff">
+          <in>gdiff.cpp</in>
+          <in>gdiff.h</in>
+        </df>
+        <df name="GEO">
+          <in>TestPointInPolygon.cpp</in>
+          <in>TestPointInTriangle.cpp</in>
+        </df>
+        <df name="gtest">
+          <df name="include">
+            <df name="gtest">
+              <df name="internal">
+                <in>gtest-death-test-internal.h</in>
+                <in>gtest-filepath.h</in>
+                <in>gtest-internal.h</in>
+                <in>gtest-linked_ptr.h</in>
+                <in>gtest-param-util-generated.h</in>
+                <in>gtest-param-util.h</in>
+                <in>gtest-port.h</in>
+                <in>gtest-string.h</in>
+                <in>gtest-tuple.h</in>
+                <in>gtest-type-util.h</in>
+              </df>
+              <in>gtest-death-test.h</in>
+              <in>gtest-message.h</in>
+              <in>gtest-param-test.h</in>
+              <in>gtest-printers.h</in>
+              <in>gtest-spi.h</in>
+              <in>gtest-test-part.h</in>
+              <in>gtest-typed-test.h</in>
+              <in>gtest.h</in>
+              <in>gtest_pred_impl.h</in>
+              <in>gtest_prod.h</in>
+            </df>
+          </df>
+          <df name="src">
+            <in>gtest-all.cc</in>
+            <in>gtest-death-test.cc</in>
+            <in>gtest-filepath.cc</in>
+            <in>gtest-internal-inl.h</in>
+            <in>gtest-port.cc</in>
+            <in>gtest-printers.cc</in>
+            <in>gtest-test-part.cc</in>
+            <in>gtest-typed-test.cc</in>
+            <in>gtest.cc</in>
+            <in>gtest_main.cc</in>
+          </df>
+        </df>
+        <df name="LinAlg">
+          <in>testGaussAlgorithm.cpp</in>
+        </df>
+        <df name="Matrix">
+          <in>testMatrix.cpp</in>
+        </df>
+        <in>logging.h</in>
+        <in>testBase.cpp</in>
+        <in>testBmSkel.cxx</in>
+        <in>testGeo.cpp</in>
+        <in>testOgs.cxx</in>
+        <in>testSolidProps.cpp</in>
+        <in>testrunner.cpp</in>
+      </df>
+      <df name="ThirdParty">
+        <df name="Brent">
+          <in>brent.cpp</in>
+          <in>brent.hpp</in>
+        </df>
+        <df name="cvode">
+        </df>
+        <df name="Eigen">
+          <df name="src">
+            <df name="Cholesky">
+              <in>LDLT.h</in>
+              <in>LLT.h</in>
+              <in>LLT_MKL.h</in>
+            </df>
+            <df name="CholmodSupport">
+              <in>CholmodSupport.h</in>
+            </df>
+            <df name="Core">
+              <df name="arch">
+                <df name="AltiVec">
+                  <in>Complex.h</in>
+                  <in>PacketMath.h</in>
+                </df>
+                <df name="Default">
+                  <in>Settings.h</in>
+                </df>
+                <df name="NEON">
+                  <in>Complex.h</in>
+                  <in>PacketMath.h</in>
+                </df>
+                <df name="SSE">
+                  <in>Complex.h</in>
+                  <in>MathFunctions.h</in>
+                  <in>PacketMath.h</in>
+                </df>
+              </df>
+              <df name="products">
+                <in>CoeffBasedProduct.h</in>
+                <in>GeneralBlockPanelKernel.h</in>
+                <in>GeneralMatrixMatrix.h</in>
+                <in>GeneralMatrixMatrixTriangular.h</in>
+                <in>GeneralMatrixMatrixTriangular_MKL.h</in>
+                <in>GeneralMatrixMatrix_MKL.h</in>
+                <in>GeneralMatrixVector.h</in>
+                <in>GeneralMatrixVector_MKL.h</in>
+                <in>Parallelizer.h</in>
+                <in>SelfadjointMatrixMatrix.h</in>
+                <in>SelfadjointMatrixMatrix_MKL.h</in>
+                <in>SelfadjointMatrixVector.h</in>
+                <in>SelfadjointMatrixVector_MKL.h</in>
+                <in>SelfadjointProduct.h</in>
+                <in>SelfadjointRank2Update.h</in>
+                <in>TriangularMatrixMatrix.h</in>
+                <in>TriangularMatrixMatrix_MKL.h</in>
+                <in>TriangularMatrixVector.h</in>
+                <in>TriangularMatrixVector_MKL.h</in>
+                <in>TriangularSolverMatrix.h</in>
+                <in>TriangularSolverMatrix_MKL.h</in>
+                <in>TriangularSolverVector.h</in>
+              </df>
+              <df name="util">
+                <in>BlasUtil.h</in>
+                <in>Constants.h</in>
+                <in>DisableStupidWarnings.h</in>
+                <in>ForwardDeclarations.h</in>
+                <in>MKL_support.h</in>
+                <in>Macros.h</in>
+                <in>Memory.h</in>
+                <in>Meta.h</in>
+                <in>NonMPL2.h</in>
+                <in>ReenableStupidWarnings.h</in>
+                <in>StaticAssert.h</in>
+                <in>XprHelper.h</in>
+              </df>
+              <in>Array.h</in>
+              <in>ArrayBase.h</in>
+              <in>ArrayWrapper.h</in>
+              <in>Assign.h</in>
+              <in>Assign_MKL.h</in>
+              <in>BandMatrix.h</in>
+              <in>Block.h</in>
+              <in>BooleanRedux.h</in>
+              <in>CommaInitializer.h</in>
+              <in>CoreIterators.h</in>
+              <in>CwiseBinaryOp.h</in>
+              <in>CwiseNullaryOp.h</in>
+              <in>CwiseUnaryOp.h</in>
+              <in>CwiseUnaryView.h</in>
+              <in>DenseBase.h</in>
+              <in>DenseCoeffsBase.h</in>
+              <in>DenseStorage.h</in>
+              <in>Diagonal.h</in>
+              <in>DiagonalMatrix.h</in>
+              <in>DiagonalProduct.h</in>
+              <in>Dot.h</in>
+              <in>EigenBase.h</in>
+              <in>Flagged.h</in>
+              <in>ForceAlignedAccess.h</in>
+              <in>Functors.h</in>
+              <in>Fuzzy.h</in>
+              <in>GeneralProduct.h</in>
+              <in>GenericPacketMath.h</in>
+              <in>GlobalFunctions.h</in>
+              <in>IO.h</in>
+              <in>Map.h</in>
+              <in>MapBase.h</in>
+              <in>MathFunctions.h</in>
+              <in>Matrix.h</in>
+              <in>MatrixBase.h</in>
+              <in>NestByValue.h</in>
+              <in>NoAlias.h</in>
+              <in>NumTraits.h</in>
+              <in>PermutationMatrix.h</in>
+              <in>PlainObjectBase.h</in>
+              <in>ProductBase.h</in>
+              <in>Random.h</in>
+              <in>Redux.h</in>
+              <in>Ref.h</in>
+              <in>Replicate.h</in>
+              <in>ReturnByValue.h</in>
+              <in>Reverse.h</in>
+              <in>Select.h</in>
+              <in>SelfAdjointView.h</in>
+              <in>SelfCwiseBinaryOp.h</in>
+              <in>SolveTriangular.h</in>
+              <in>StableNorm.h</in>
+              <in>Stride.h</in>
+              <in>Swap.h</in>
+              <in>Transpose.h</in>
+              <in>Transpositions.h</in>
+              <in>TriangularMatrix.h</in>
+              <in>VectorBlock.h</in>
+              <in>VectorwiseOp.h</in>
+              <in>Visitor.h</in>
+            </df>
+            <df name="Eigen2Support">
+              <df name="Geometry">
+                <in>AlignedBox.h</in>
+                <in>All.h</in>
+                <in>AngleAxis.h</in>
+                <in>Hyperplane.h</in>
+                <in>ParametrizedLine.h</in>
+                <in>Quaternion.h</in>
+                <in>Rotation2D.h</in>
+                <in>RotationBase.h</in>
+                <in>Scaling.h</in>
+                <in>Transform.h</in>
+                <in>Translation.h</in>
+              </df>
+              <in>Block.h</in>
+              <in>Cwise.h</in>
+              <in>CwiseOperators.h</in>
+              <in>LU.h</in>
+              <in>Lazy.h</in>
+              <in>LeastSquares.h</in>
+              <in>Macros.h</in>
+              <in>MathFunctions.h</in>
+              <in>Memory.h</in>
+              <in>Meta.h</in>
+              <in>Minor.h</in>
+              <in>QR.h</in>
+              <in>SVD.h</in>
+              <in>TriangularSolver.h</in>
+              <in>VectorBlock.h</in>
+            </df>
+            <df name="Eigenvalues">
+              <in>ComplexEigenSolver.h</in>
+              <in>ComplexSchur.h</in>
+              <in>ComplexSchur_MKL.h</in>
+              <in>EigenSolver.h</in>
+              <in>GeneralizedEigenSolver.h</in>
+              <in>GeneralizedSelfAdjointEigenSolver.h</in>
+              <in>HessenbergDecomposition.h</in>
+              <in>MatrixBaseEigenvalues.h</in>
+              <in>RealQZ.h</in>
+              <in>RealSchur.h</in>
+              <in>RealSchur_MKL.h</in>
+              <in>SelfAdjointEigenSolver.h</in>
+              <in>SelfAdjointEigenSolver_MKL.h</in>
+              <in>Tridiagonalization.h</in>
+            </df>
+            <df name="Geometry">
+              <df name="arch">
+                <in>Geometry_SSE.h</in>
+              </df>
+              <in>AlignedBox.h</in>
+              <in>AngleAxis.h</in>
+              <in>EulerAngles.h</in>
+              <in>Homogeneous.h</in>
+              <in>Hyperplane.h</in>
+              <in>OrthoMethods.h</in>
+              <in>ParametrizedLine.h</in>
+              <in>Quaternion.h</in>
+              <in>Rotation2D.h</in>
+              <in>RotationBase.h</in>
+              <in>Scaling.h</in>
+              <in>Transform.h</in>
+              <in>Translation.h</in>
+              <in>Umeyama.h</in>
+            </df>
+            <df name="Householder">
+              <in>BlockHouseholder.h</in>
+              <in>Householder.h</in>
+              <in>HouseholderSequence.h</in>
+            </df>
+            <df name="IterativeLinearSolvers">
+              <in>BasicPreconditioners.h</in>
+              <in>BiCGSTAB.h</in>
+              <in>ConjugateGradient.h</in>
+              <in>IncompleteLUT.h</in>
+              <in>IterativeSolverBase.h</in>
+            </df>
+            <df name="Jacobi">
+              <in>Jacobi.h</in>
+            </df>
+            <df name="LU">
+              <df name="arch">
+                <in>Inverse_SSE.h</in>
+              </df>
+              <in>Determinant.h</in>
+              <in>FullPivLU.h</in>
+              <in>Inverse.h</in>
+              <in>PartialPivLU.h</in>
+              <in>PartialPivLU_MKL.h</in>
+            </df>
+            <df name="MetisSupport">
+              <in>MetisSupport.h</in>
+            </df>
+            <df name="misc">
+              <in>Image.h</in>
+              <in>Kernel.h</in>
+              <in>Solve.h</in>
+              <in>SparseSolve.h</in>
+              <in>blas.h</in>
+            </df>
+            <df name="OrderingMethods">
+              <in>Amd.h</in>
+              <in>Eigen_Colamd.h</in>
+              <in>Ordering.h</in>
+            </df>
+            <df name="PardisoSupport">
+              <in>PardisoSupport.h</in>
+            </df>
+            <df name="PaStiXSupport">
+              <in>PaStiXSupport.h</in>
+            </df>
+            <df name="plugins">
+              <in>ArrayCwiseBinaryOps.h</in>
+              <in>ArrayCwiseUnaryOps.h</in>
+              <in>BlockMethods.h</in>
+              <in>CommonCwiseBinaryOps.h</in>
+              <in>CommonCwiseUnaryOps.h</in>
+              <in>MatrixCwiseBinaryOps.h</in>
+              <in>MatrixCwiseUnaryOps.h</in>
+            </df>
+            <df name="QR">
+              <in>ColPivHouseholderQR.h</in>
+              <in>ColPivHouseholderQR_MKL.h</in>
+              <in>FullPivHouseholderQR.h</in>
+              <in>HouseholderQR.h</in>
+              <in>HouseholderQR_MKL.h</in>
+            </df>
+            <df name="SparseCholesky">
+              <in>SimplicialCholesky.h</in>
+              <in>SimplicialCholesky_impl.h</in>
+            </df>
+            <df name="SparseCore">
+              <in>AmbiVector.h</in>
+              <in>CompressedStorage.h</in>
+              <in>ConservativeSparseSparseProduct.h</in>
+              <in>MappedSparseMatrix.h</in>
+              <in>SparseBlock.h</in>
+              <in>SparseColEtree.h</in>
+              <in>SparseCwiseBinaryOp.h</in>
+              <in>SparseCwiseUnaryOp.h</in>
+              <in>SparseDenseProduct.h</in>
+              <in>SparseDiagonalProduct.h</in>
+              <in>SparseDot.h</in>
+              <in>SparseFuzzy.h</in>
+              <in>SparseMatrix.h</in>
+              <in>SparseMatrixBase.h</in>
+              <in>SparsePermutation.h</in>
+              <in>SparseProduct.h</in>
+              <in>SparseRedux.h</in>
+              <in>SparseSelfAdjointView.h</in>
+              <in>SparseSparseProductWithPruning.h</in>
+              <in>SparseTranspose.h</in>
+              <in>SparseTriangularView.h</in>
+              <in>SparseUtil.h</in>
+              <in>SparseVector.h</in>
+              <in>SparseView.h</in>
+              <in>TriangularSolver.h</in>
+            </df>
+            <df name="SparseLU">
+              <in>SparseLU.h</in>
+              <in>SparseLUImpl.h</in>
+              <in>SparseLU_Memory.h</in>
+              <in>SparseLU_Structs.h</in>
+              <in>SparseLU_SupernodalMatrix.h</in>
+              <in>SparseLU_Utils.h</in>
+              <in>SparseLU_column_bmod.h</in>
+              <in>SparseLU_column_dfs.h</in>
+              <in>SparseLU_copy_to_ucol.h</in>
+              <in>SparseLU_gemm_kernel.h</in>
+              <in>SparseLU_heap_relax_snode.h</in>
+              <in>SparseLU_kernel_bmod.h</in>
+              <in>SparseLU_panel_bmod.h</in>
+              <in>SparseLU_panel_dfs.h</in>
+              <in>SparseLU_pivotL.h</in>
+              <in>SparseLU_pruneL.h</in>
+              <in>SparseLU_relax_snode.h</in>
+            </df>
+            <df name="SparseQR">
+              <in>SparseQR.h</in>
+            </df>
+            <df name="SPQRSupport">
+              <in>SuiteSparseQRSupport.h</in>
+            </df>
+            <df name="StlSupport">
+              <in>StdDeque.h</in>
+              <in>StdList.h</in>
+              <in>StdVector.h</in>
+              <in>details.h</in>
+            </df>
+            <df name="SuperLUSupport">
+              <in>SuperLUSupport.h</in>
+            </df>
+            <df name="SVD">
+              <in>JacobiSVD.h</in>
+              <in>JacobiSVD_MKL.h</in>
+              <in>UpperBidiagonalization.h</in>
+            </df>
+            <df name="UmfPackSupport">
+              <in>UmfPackSupport.h</in>
+            </df>
+          </df>
+          <in>Array</in>
+          <in>Cholesky</in>
+          <in>CholmodSupport</in>
+          <in>Core</in>
+          <in>Dense</in>
+          <in>Eigen</in>
+          <in>Eigenvalues</in>
+          <in>Geometry</in>
+          <in>Householder</in>
+          <in>IterativeLinearSolvers</in>
+          <in>Jacobi</in>
+          <in>LU</in>
+          <in>MetisSupport</in>
+          <in>OrderingMethods</in>
+          <in>PaStiXSupport</in>
+          <in>PardisoSupport</in>
+          <in>QR</in>
+          <in>QtAlignedMalloc</in>
+          <in>SPQRSupport</in>
+          <in>SVD</in>
+          <in>SparseCore</in>
+          <in>SparseQR</in>
+          <in>SuperLUSupport</in>
+          <in>UmfPackSupport</in>
+        </df>
+        <df name="GEM">
+          <in>databr.h</in>
+          <in>datach.h</in>
+          <in>gdatastream.cpp</in>
+          <in>gdatastream.h</in>
+          <in>io_arrays.cpp</in>
+          <in>io_arrays.h</in>
+          <in>ipm_chemical.cpp</in>
+          <in>ipm_chemical2.cpp</in>
+          <in>ipm_chemical3.cpp</in>
+          <in>ipm_main.cpp</in>
+          <in>ipm_simplex.cpp</in>
+          <in>jama_cholesky.h</in>
+          <in>jama_lu.h</in>
+          <in>m_const.h</in>
+          <in>m_param.h</in>
+          <in>ms_multi.h</in>
+          <in>ms_multi_file.cpp</in>
+          <in>ms_multi_format.cpp</in>
+          <in>ms_param.cpp</in>
+          <in>node.cpp</in>
+          <in>node.h</in>
+          <in>node_format.cpp</in>
+          <in>num_methods.cpp</in>
+          <in>num_methods.h</in>
+          <in>s_kinmet.cpp</in>
+          <in>s_kinmet.h</in>
+          <in>s_solmod.cpp</in>
+          <in>s_solmod.h</in>
+          <in>s_solmod2.cpp</in>
+          <in>s_solmod3.cpp</in>
+          <in>s_solmod4.cpp</in>
+          <in>s_solmod5.cpp</in>
+          <in>s_solmod6.cpp</in>
+          <in>s_sorpmod.cpp</in>
+          <in>s_sorpmod.h</in>
+          <in>tnt.h</in>
+          <in>tnt_array1d.h</in>
+          <in>tnt_array2d.h</in>
+          <in>tnt_i_refvec.h</in>
+          <in>v_user.h</in>
+          <in>verror.h</in>
+        </df>
+        <df name="IPQC">
+          <df name="src">
+            <df name="phreeqcpp">
+              <in>ChartHandler.cpp</in>
+              <in>ChartHandler.h</in>
+              <in>ChartObject.cpp</in>
+              <in>ChartObject.h</in>
+              <in>CurveObject.cpp</in>
+              <in>CurveObject.h</in>
+              <in>ExchComp.cxx</in>
+              <in>ExchComp.h</in>
+              <in>Exchange.cxx</in>
+              <in>Exchange.h</in>
+              <in>Form1.h</in>
+              <in>GasComp.cxx</in>
+              <in>GasComp.h</in>
+              <in>GasPhase.cxx</in>
+              <in>GasPhase.h</in>
+              <in>ISolution.cxx</in>
+              <in>ISolution.h</in>
+              <in>ISolutionComp.cxx</in>
+              <in>ISolutionComp.h</in>
+              <in>Keywords.cpp</in>
+              <in>Keywords.h</in>
+              <in>KineticsComp.cxx</in>
+              <in>KineticsComp.h</in>
+              <in>NA.h</in>
+              <in>NameDouble.cxx</in>
+              <in>NameDouble.h</in>
+              <in>NumKeyword.cxx</in>
+              <in>NumKeyword.h</in>
+              <in>PBasic.cpp</in>
+              <in>PBasic.h</in>
+              <in>PHRQ_base.cxx</in>
+              <in>PHRQ_base.h</in>
+              <in>PHRQ_io.cpp</in>
+              <in>PHRQ_io.h</in>
+              <in>PHRQ_io_output.cpp</in>
+              <in>PPassemblage.cxx</in>
+              <in>PPassemblage.h</in>
+              <in>PPassemblageComp.cxx</in>
+              <in>PPassemblageComp.h</in>
+              <in>Parser.cxx</in>
+              <in>Parser.h</in>
+              <in>Phreeqc.cpp</in>
+              <in>Phreeqc.h</in>
+              <in>Pressure.cxx</in>
+              <in>Pressure.h</in>
+              <in>Reaction.cxx</in>
+              <in>Reaction.h</in>
+              <in>ReadClass.cxx</in>
+              <in>SS.cxx</in>
+              <in>SS.h</in>
+              <in>SSassemblage.cxx</in>
+              <in>SSassemblage.h</in>
+              <in>SScomp.cxx</in>
+              <in>SScomp.h</in>
+              <in>SelectedOutput.cpp</in>
+              <in>SelectedOutput.h</in>
+              <in>Solution.cxx</in>
+              <in>Solution.h</in>
+              <in>SolutionIsotope.cxx</in>
+              <in>SolutionIsotope.h</in>
+              <in>StorageBin.cxx</in>
+              <in>StorageBin.h</in>
+              <in>StorageBinList.cpp</in>
+              <in>StorageBinList.h</in>
+              <in>Surface.cxx</in>
+              <in>Surface.h</in>
+              <in>SurfaceCharge.cxx</in>
+              <in>SurfaceCharge.h</in>
+              <in>SurfaceComp.cxx</in>
+              <in>SurfaceComp.h</in>
+              <in>System.cxx</in>
+              <in>System.h</in>
+              <in>Temperature.cxx</in>
+              <in>Temperature.h</in>
+              <in>Use.cpp</in>
+              <in>Use.h</in>
+              <in>UserPunch.cpp</in>
+              <in>UserPunch.h</in>
+              <in>Utils.cxx</in>
+              <in>Utils.h</in>
+              <in>advection.cpp</in>
+              <in>basicsubs.cpp</in>
+              <in>cl1.cpp</in>
+              <in>cvdense.cpp</in>
+              <in>cvdense.h</in>
+              <in>cvode.cpp</in>
+              <in>cvode.h</in>
+              <in>cxxKinetics.cxx</in>
+              <in>cxxKinetics.h</in>
+              <in>cxxMix.cxx</in>
+              <in>cxxMix.h</in>
+              <in>dense.cpp</in>
+              <in>dense.h</in>
+              <in>dumper.cpp</in>
+              <in>dumper.h</in>
+              <in>dw.cpp</in>
+              <in>gases.cpp</in>
+              <in>global_structures.h</in>
+              <in>input.cpp</in>
+              <in>integrate.cpp</in>
+              <in>inverse.cpp</in>
+              <in>isotopes.cpp</in>
+              <in>kinetics.cpp</in>
+              <in>mainsubs.cpp</in>
+              <in>model.cpp</in>
+              <in>nvector.cpp</in>
+              <in>nvector.h</in>
+              <in>nvector_serial.cpp</in>
+              <in>nvector_serial.h</in>
+              <in>parse.cpp</in>
+              <in>phqalloc.cpp</in>
+              <in>phqalloc.h</in>
+              <in>phrqtype.h</in>
+              <in>pitzer.cpp</in>
+              <in>pitzer_structures.cpp</in>
+              <in>prep.cpp</in>
+              <in>print.cpp</in>
+              <in>read.cpp</in>
+              <in>readtr.cpp</in>
+              <in>runner.cpp</in>
+              <in>runner.h</in>
+              <in>sit.cpp</in>
+              <in>smalldense.cpp</in>
+              <in>smalldense.h</in>
+              <in>spread.cpp</in>
+              <in>step.cpp</in>
+              <in>structures.cpp</in>
+              <in>sundialsmath.cpp</in>
+              <in>sundialsmath.h</in>
+              <in>sundialstypes.h</in>
+              <in>tally.cpp</in>
+              <in>tidy.cpp</in>
+              <in>transport.cpp</in>
+              <in>utilities.cpp</in>
+            </df>
+            <in>CSelectedOutput.cpp</in>
+            <in>CSelectedOutput.hxx</in>
+            <in>CVar.hxx</in>
+            <in>Debug.h</in>
+            <in>ErrorReporter.hxx</in>
+            <in>IPhreeqc.cpp</in>
+            <in>IPhreeqc.h</in>
+            <in>IPhreeqc.hpp</in>
+            <in>IPhreeqcCallbacks.h</in>
+            <in>IPhreeqcF.f</in>
+            <in>IPhreeqcLib.cpp</in>
+            <in>SelectedOutput.cpp</in>
+            <in>SelectedOutput.hxx</in>
+            <in>Var.c</in>
+            <in>Var.h</in>
+            <in>Version.h</in>
+            <in>fwrap.cpp</in>
+            <in>fwrap.h</in>
+            <in>fwrap2.cpp</in>
+            <in>fwrap3.cpp</in>
+            <in>fwrap4.cpp</in>
+            <in>fwrap5.cpp</in>
+            <in>fwrap6.cpp</in>
+            <in>fwrap7.cpp</in>
+            <in>fwrap8.cpp</in>
+            <in>thread.h</in>
+          </df>
+        </df>
+        <df name="PQC">
+          <in>advection.c</in>
+          <in>basic.c</in>
+          <in>basicsubs.c</in>
+          <in>cl1.c</in>
+          <in>cl1mp.c</in>
+          <in>cvdense.c</in>
+          <in>cvdense.h</in>
+          <in>cvode.c</in>
+          <in>cvode.h</in>
+          <in>dense.c</in>
+          <in>dense.h</in>
+          <in>dw.c</in>
+          <in>global.h</in>
+          <in>input.c</in>
+          <in>input.h</in>
+          <in>integrate.c</in>
+          <in>inverse.c</in>
+          <in>isotopes.c</in>
+          <in>kinetics.c</in>
+          <in>kinetics.h</in>
+          <in>mainsubs.c</in>
+          <in>model.c</in>
+          <in>nvector.c</in>
+          <in>nvector.h</in>
+          <in>nvector_serial.c</in>
+          <in>nvector_serial.h</in>
+          <in>output.c</in>
+          <in>output.h</in>
+          <in>p2c.h</in>
+          <in>p2clib.c</in>
+          <in>parse.c</in>
+          <in>phqalloc.c</in>
+          <in>phqalloc.h</in>
+          <in>phreeqc.h</in>
+          <in>phreeqc_files.c</in>
+          <in>phrqproto.h</in>
+          <in>phrqtype.h</in>
+          <in>pitzer.c</in>
+          <in>pitzer.h</in>
+          <in>pitzer_structures.c</in>
+          <in>pqcint.c</in>
+          <in>pqcint.h</in>
+          <in>prep.c</in>
+          <in>print.c</in>
+          <in>read.c</in>
+          <in>readtr.c</in>
+          <in>smalldense.c</in>
+          <in>smalldense.h</in>
+          <in>spread.c</in>
+          <in>step.c</in>
+          <in>step.h</in>
+          <in>structures.c</in>
+          <in>sundialsmath.c</in>
+          <in>sundialsmath.h</in>
+          <in>sundialstypes.h</in>
+          <in>tally.c</in>
+          <in>tidy.c</in>
+          <in>transport.c</in>
+          <in>utilities.c</in>
+        </df>
+        <df name="RapidXML">
+          <in>rapidxml.hpp</in>
+          <in>rapidxml_iterators.hpp</in>
+          <in>rapidxml_print.hpp</in>
+          <in>rapidxml_utils.hpp</in>
+        </df>
+      </df>
+      <df name="UTL">
+        <df name="mHM2OGS">
+          <in>mHMPreprocessor.cpp</in>
+          <in>mHMPreprocessor.h</in>
+          <in>main.cpp</in>
+        </df>
+        <df name="MSHGEOTOOLS">
+          <in>ModifyMeshProperties.cpp</in>
+          <in>ModifyMeshProperties.h</in>
+          <in>filterMeshNodes.cpp</in>
+          <in>mainConvertGLIVerticalSurfaceToPolygon.cpp</in>
+          <in>mainExtractMeshNodeIDs.cpp</in>
+          <in>mainExtractMeshNodes.cpp</in>
+          <in>mainModifyMeshProperties.cpp</in>
+          <in>testMeshSearchAlgorithms.cpp</in>
+        </df>
+        <in>benchtimer.cpp</in>
+        <in>benchtimer.h</in>
+        <in>tokenbuf.cpp</in>
+        <in>tokenbuf.h</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>../debug/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+            <option name="debug_dir" value="/home/morel/ChristaII/aniso"/>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" OGS-CES-I-E05</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" het_test</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" het_test</runcommand>
+        <rundir>/home/morel/ChristaII/aniso</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
