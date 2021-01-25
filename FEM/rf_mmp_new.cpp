@@ -5741,6 +5741,7 @@ void CMediumProperties::SetDistributedELEProperties(string file_name)
     int vol_bio_index = 0;
     string outfile;
     int k;
+    bool dummy_cg = false;
 
     // default: scalar property
     unsigned int n_components{1};
@@ -5811,11 +5812,15 @@ void CMediumProperties::SetDistributedELEProperties(string file_name)
         if (line_string.find("$COMPONENTS") != string::npos)
         {
             mmp_property_file >> n_components;
-            if (mmp_property_name.empty())
+            //dummy = mmp_property_name.empty();
+            dummy_cg = false;
+            if (dummy_cg)
+            {
                 std::cerr << "Error in CMediumProperties::"
                           << "SetDistributedELEProperties:\n"
                           << "$MMP_TYPE hast to be set before $COMPONENTS"
                           << "\n";
+            }
             for (unsigned int i = 0; i < n_components - 1; ++i)
             {
                 _mesh->mat_names_vector.push_back(mmp_property_name +
