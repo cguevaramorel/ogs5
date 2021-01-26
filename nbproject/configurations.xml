@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="Base"
+                   displayName="Base"
+                   projectFiles="true"
+                   root="../debug/Base">
+      <itemPath>../debug/Base/BuildInfo.cpp</itemPath>
+    </logicalFolder>
     <df root="." name="0">
       <df name="Base">
         <in>DateTools.cpp</in>
@@ -226,12 +232,26 @@
           <buildCommand>${MAKE} -f Makefile -j 8</buildCommand>
           <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
           <executablePath>..\debug\bin\ogs</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>../debug/Base</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>GCC</Elem>
+              <Elem>HAVE_64_BIT</Elem>
+              <Elem>HAVE_PTHREADS</Elem>
+            </preprocessorList>
+          </ccTool>
         </makeTool>
         <preBuild>
           <preBuildCommandWorkingDir>../debug</preBuildCommandWorkingDir>
           <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..\source</preBuildCommand>
         </preBuild>
       </makefileType>
+      <item path="../debug/Base/BuildInfo.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
       <item path="Base/DateTools.cpp" ex="false" tool="1" flavor2="0">
         <ccTool flags="0">
         </ccTool>
@@ -1022,6 +1042,14 @@
         <ccTool>
           <incDir>
             <pElem>../debug/UTL/mHM2OGS</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Base">
+        <ccTool>
+          <incDir>
+            <pElem>Base</pElem>
+            <pElem>ThirdParty</pElem>
           </incDir>
         </ccTool>
       </folder>
